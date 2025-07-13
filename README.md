@@ -1,4 +1,4 @@
-# Neetcode-150---Problem-4
+# Problem 242: Valid Anagram
 
 7/13/2025
 
