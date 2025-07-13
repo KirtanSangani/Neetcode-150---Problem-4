@@ -8,8 +8,9 @@ At the beginning, I was a little confused as to how to count each letter for bot
 ## Solution
 I decided to go with two Lists instead. I initialized both Lists to contain 26 spaces, one for each letter. I would then go through each letter of both strings and "mark" their corresponding spot in each List. It took me a while to find out how to mark the correct spot, but figured it out using the ord() function. This function allows me to find the ASCII value of each letter, and since all letters will always be lowercase, by subtracting the ASCII value of the letter by the ASCII value of 'a', I can find the index that corresponds to that letter. After the for loop runs through, I would check to see if both Lists are the same, if they are, return true, if not, return false.  
 
-Final Solution - 20 ms
-Complexity - O(n)
+## Final Solution - 20 ms
+
+## Complexity - O(n)
 
 ## Takeaways
 I learned how to find the index of the alphabet (a - 1, b - 2, c - 3, etc.) I also am starting to figure out how to properly manage space and memory for things like Lists vs Hash Tables vs Dictionaries. 
